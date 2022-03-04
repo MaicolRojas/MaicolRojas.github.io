@@ -702,23 +702,23 @@
           <div class="contact__content">
             <h3 class="contact__title">Escríbeme un correo</h3>
 
-            <form action="" class="contact__form">
+            <form action="https://formspree.io/f/mrgjkaag" method="POST" class="contact__form">
               <div class="contact__form-div">
-                <label for="" class="contact__form-tag">Nombres</label>
-                  <input type="text" placeholder="Nombres" class="contact__form-input">
+                <label for="" class="contact__form-tag" >Nombres</label>
+                  <input type="text" placeholder="Nombres" name="name" required=""  class="contact__form-input">
               </div>
 
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Email</label>
-                  <input type="email" placeholder="Correo" class="contact__form-input">
+                  <input type="email" placeholder="Correo" name="email" required="" class="contact__form-input">
               </div>
 
               <div class="contact__form-div contact__form-area">
                 <label for="" class="contact__form-tag">Asunto</label>
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Asunto" class="contact__form-input"></textarea>
+                  <textarea name="message"  cols="30" rows="10" placeholder="Asunto" required="" class="contact__form-input"></textarea>
               </div>
 
-              <button class="button">Enviar Mensaje</button>
+              <button class="button" type="submit" >Enviar Mensaje</button>
             </form>
           </div>
         </div>
